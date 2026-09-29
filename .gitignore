@@ -1,0 +1,29 @@
+# Virtual environment
+.myenv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset
+data/raw/
+data/processed/
+
+# Model checkpoints
+models/checkpoints/
+
+# MediaPipe model asset
+models/mediapipe/hand_landmarker.task
+
+# Generated artifacts
+artifacts/
+
+# Environment variables
+.env
+
+# OS
+.DS_Store
+Thumbs.db

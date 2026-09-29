@@ -1,0 +1,15 @@
+project:
+  name: AirCommand
+
+data:
+  processed_dir: data/processed
+  splits_dir: data/splits
+
+artifacts:
+  models_dir: models/checkpoints
+  figures_dir: artifacts/figures
+  metrics_dir: artifacts/metrics
+  reports_dir: artifacts/reports
+
+models:
+  mediapipe_hand_landmarker: models/mediapipe/hand_landmarker.task
